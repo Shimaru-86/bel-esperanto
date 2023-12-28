@@ -1,0 +1,38 @@
+A pasta "controllers" em um projeto PHP com React é geralmente usada para armazenar arquivos 
+que contêm a lógica de controle ou manipulação das requisições recebidas pela sua aplicação. 
+Esses arquivos são responsáveis por receber as requisições HTTP, processar os dados recebidos, 
+interagir com os modelos de dados e retornar as respostas apropriadas.
+
+Aqui estão alguns exemplos de arquivos que podem estar dentro da pasta "controllers":
+
+Arquivo de controller para usuários: Se o seu aplicativo lida com operações relacionadas a 
+usuários, você pode ter um arquivo chamado "UserController.php" dentro da pasta "controllers". 
+Esse arquivo conteria as funções ou métodos responsáveis por receber as requisições relacionadas 
+aos usuários, como cadastro, login, atualização de perfil, exclusão, entre outros.
+
+Arquivo de controller para produtos: Se o seu aplicativo tem um sistema de produtos, você pode 
+ter um arquivo chamado "ProductController.php" dentro da pasta "controllers". Esse arquivo conteria 
+as funções ou métodos responsáveis por lidar com as requisições relacionadas a produtos, como criar 
+um novo produto, buscar informações de um produto, atualizar detalhes do produto, remover um produto, 
+entre outros.
+
+Arquivo de controller para pedidos: Se o seu aplicativo possui um sistema de pedidos, você pode ter 
+um arquivo chamado "OrderController.php" dentro da pasta "controllers". Esse arquivo conteria as 
+funções ou métodos responsáveis por receber as requisições relacionadas aos pedidos, como criar um 
+novo pedido, listar os pedidos existentes, atualizar o status de um pedido, gerar faturas ou recibos, 
+entre outros.
+
+Arquivo de controller para autenticação: Se o seu aplicativo precisa lidar com autenticação de 
+usuários, você pode ter um arquivo chamado "AuthController.php" dentro da pasta "controllers". 
+Esse arquivo conteria as funções ou métodos responsáveis por lidar com as requisições relacionadas 
+à autenticação, como login, logout, recuperação de senha, gerenciamento de tokens de acesso, entre outros.
+
+Esses são apenas alguns exemplos para ilustrar o uso da pasta "controllers". A ideia é que você possa 
+criar arquivos de controllers para lidar com diferentes aspectos e recursos do seu aplicativo. Cada 
+arquivo de controller seria responsável por receber as requisições, validar os dados recebidos, chamar 
+os modelos de dados apropriados para executar as operações necessárias e retornar as respostas adequadas.
+
+Lembre-se de que as funções ou métodos dentro dos arquivos de controller podem variar dependendo das 
+necessidades do seu projeto e das práticas adotadas pela sua equipe. O objetivo é organizar a lógica 
+de controle das requisições em um local centralizado para facilitar a manutenção, a reutilização e a 
+compreensão do código.
